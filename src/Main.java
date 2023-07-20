@@ -43,8 +43,9 @@ public class Main extends Frame {
                 uw = new JLabel("sabia que dirias que si");
                 uw.setBounds(40, 120, 200, 30);
                 //add(uw);
+                //repaint();
+                dispose();
                 JOptionPane.showMessageDialog(null, message);
-                repaint();
             }
         });
 
